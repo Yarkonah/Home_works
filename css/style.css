@@ -9,11 +9,10 @@
 
 .main_pig{
     width: 980px;
-    height: 1800px;
+    height: 1850px;
     background: greenyellow;
     position: absolute;
 }
-
 
 .ear_pig{
     height: 180px;
@@ -30,12 +29,104 @@
     right: 75px;
 }
 
+.ear_center{
+    width: 160px;
+    height: 160px;
+    background: #f5ba21;
+    position: relative;
+    top: 25px;
+    left: 50px;
+}
+
 .head_pig{
     width: 980px;
     height: 640px;
     background: #9574B4;
     position: absolute;
     top: 180px;
+}
+
+.eye_pig{
+    width: 285px;
+    height: 185px;
+    background: #f5ba21;
+    position: absolute;
+}
+
+.left_eye{
+    top: 110px;
+    left: 130px;
+}
+
+.right_eye{
+    top: 110px;
+    right: 130px;
+}
+
+.pupil_eye{
+    height: 125px;
+    width: 80px;
+    background: black;
+    position: relative;
+    top: 60px;
+    left: 205px;
+}
+
+.nose_pig{
+    width: 325px;
+    height: 110px;
+    background: #fec480;
+    position: relative;
+    top: 330px;
+    left: 320px;
+}
+
+.hole_pig{
+    width: 60px;
+    height: 80px;
+    background: #e83795;
+    position: absolute;
+}
+
+.hole_left{
+    left: 60px;
+    bottom: 0;
+}
+
+.hole_right{
+    right: 60px;
+    bottom: 0;
+}
+
+.mouth_pig{
+    width: 750px;
+    height: 80px;
+    background: #de1f26;
+    position: relative;
+    top: 380px;
+    left: 125px;
+    display: inline-block;
+    font-size: 0px;
+}
+
+.upper_teeth{
+    background: black;
+    width: 65px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    left: 115px;
+    margin-left: 35px;
+}
+
+.lover_teeth{
+    background: white;
+    width: 70px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    margin-left: 40px;
 }
 
 .neck_pig{
@@ -47,6 +138,14 @@
     height: 88px;
 }
 
+.inside_neck{
+    width: 265px;
+    height: 30px;
+    background: #f3ba24;
+    position: relative;
+    top: 30px;
+}
+
 .body_pig{
     top: calc(814px + 88px);
     left: 137px;
@@ -54,6 +153,17 @@
     position: absolute;
     width: 720px;
     height: 749px;
+    border-radius: 5%;
+}
+
+.circle_pig{
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    background: #e83795;
+    position: relative;
+    top: 35%;
+    left: 20%;
 }
 
 .palm_pig{
@@ -65,11 +175,13 @@
 }
 
 .left_palm{
-
+    border-radius: 20px 0 0 20px;
+    left: 14px;
 }
 
 .right_palm{
-    right: 0;
+    right: 9px;
+    border-radius: 0 20px 20px 0;
     
 }
 
@@ -77,4 +189,50 @@
     height: 170px;
     width: 83px;
     background: #9574b4;
+    position: absolute;
+}
+
+.left_hand{
+    top: 965px;
+    left: 54px;
+}
+
+.right_hand{
+    top: 965px;
+    right: 50px;}
+
+.leg_pig{
+    width: 155px;
+    height: 120px;
+    background: #9374b3;
+    position: absolute;
+}
+
+.foot_pig{
+    width: 155px;
+    height: 40px;
+    background: black;
+    position: absolute;
+    border-end-start-radius: 20px ;
+    border-end-end-radius: 20px ;
+}
+
+.left_leg{
+    top: 1650px;
+    left: 200px;
+}
+
+.right_leg{
+    top: 1650px;
+    right: 200px;
+}
+
+.left_foot{
+    top: 1770px;
+    left: 200px;
+}
+
+.right_foot{
+    top: 1770px;
+    right: 200px;
 }
