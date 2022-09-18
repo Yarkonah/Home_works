@@ -7,3 +7,74 @@
     /*border: none;*/
 }
 
+.main_pig{
+    width: 980px;
+    height: 1800px;
+    background: greenyellow;
+    position: absolute;
+}
+
+
+.ear_pig{
+    height: 180px;
+    width: 260px;
+    background: #9574B4;
+    position: absolute;
+}
+
+.left_ear{
+    left: 75px ;
+}
+
+.right_ear{
+    right: 75px;
+}
+
+.head_pig{
+    width: 980px;
+    height: 640px;
+    background: #9574B4;
+    position: absolute;
+    top: 180px;
+}
+
+.neck_pig{
+    top: 814px;
+    left: 375px;
+    background: #9574B4;
+    position: absolute;
+    width: 265px;
+    height: 88px;
+}
+
+.body_pig{
+    top: calc(814px + 88px);
+    left: 137px;
+    background: #9574B4;
+    position: absolute;
+    width: 720px;
+    height: 749px;
+}
+
+.palm_pig{
+    height: 170px;
+    width: 40px;
+    background: black;
+    position: absolute;
+    top: 965px;
+}
+
+.left_palm{
+
+}
+
+.right_palm{
+    right: 0;
+    
+}
+
+.hand_pig{
+    height: 170px;
+    width: 83px;
+    background: #9574b4;
+}
