@@ -1,9 +1,102 @@
-*,body,html{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    /*border: none;*/
+.body_big{
+    height: 760px;
+    width: 500px;
+    background: red;
+    margin: auto;
 }
 
+/*.inline{*/
+/*    display: inline-block;*/
+/*}*/
+
+.ears_pig{
+    background: white;
+    font-size: 0px;
+}
+
+.ear_pig{
+    height: 80px;
+    width: 120px;
+    background: #9574b4;
+    margin-left: 63px;
+    margin-right: 63px;
+    display: inline-block;
+}
+
+.ear_pig_in{
+    height: 60px;
+    width: 60px;
+    background: #f5ba20;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.head_pig{
+    height: 300px;
+    width: 500px;
+    background: #9574b4;
+}
+
+.neck_pig{
+    height: 60px;
+    width: 140px;
+    background: #9574b4;
+    margin: auto;
+}
+
+.body_all{
+    background: white;
+    font-size: 0px;
+    padding-left: 5%;
+}
+
+.palm_pig{
+    height: 70px;
+    width: 25px;
+    background: black;
+    display: inline-block;
+    margin-bottom: 45%;
+}
+
+.hand_pig{
+    height: 70px;
+    width: 50px;
+    background: #9574b4;
+    display: inline-block;
+    margin-bottom: 45%;
+}
+
+.body_pig{
+    height: 300px;
+    width: 300px;
+    background: #9574b4;
+    /*margin: auto;*/
+    display: inline-block;
+}
+
+.legs_pig{
+    background: white;
+    font-size: 0px;
+}
+
+.leg_pig{
+    height: 50px;
+    width: 70px;
+    background: #9574b4;
+    display: inline-block;
+}
+
+.foot_pig{
+    height: 30px;
+    width: 70px;
+    background: black;
+    display: inline-block;
+}
+
+.left{
+    margin-left: 50%;
+}
+
+.right{
+    margin-left: 23%;
+}
