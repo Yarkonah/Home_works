@@ -7,3 +7,57 @@
     /*border: none;*/
 }
 
+.container{
+    max-width: 1100px;
+    margin: auto;
+    /*background: yellowgreen;*/
+}
+
+.head_menu{
+    background: #E5E5E5;
+}
+
+.head_menu_link{
+    text-align: center;
+}
+
+.head_menu_a{
+    color: black;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.head_logo{
+    float: left;
+    margin-top: 20px;
+    border-radius: 1px;
+}
+
+.head_logo_img, .head_logo_text, .head_text_phone, .head_button_phone{
+    display: inline-block;
+}
+
+.head_logo_text{
+    font-size: 36px;
+    text-align: center;
+    padding-left: 10px;
+    color: #F13C6E;
+}
+
+.head_callback{
+    float: right;
+}
+
+.head_text_phone{
+    font-size: 16px;
+}
+
+.head_button_phone{
+    font-size: 14px;
+}
+
+.clear_kostil{
+    clear: both;
+}
+
+
