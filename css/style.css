@@ -7,3 +7,70 @@
     /*border: none;*/
 }
 
+.main_block{
+}
+
+.main_logo img{
+    width: 138px;
+}
+
+
+.header_menu{
+    margin: 30px 51px;
+    display: flex;
+    /*flex-direction: column; !*column-reverse row* *!*/
+    /*justify-content: center;*/
+    /*justify-content: flex-end;*/
+    justify-content: space-between;  /*Основная ось*/
+    align-items: center; /*Доп ось*/
+    flex-wrap: wrap; /*перенос на след строку*/
+}
+
+.main_menu li{
+    display: inline-block;
+    margin: 0 21px;
+}
+
+.btn_main button{
+    border: black;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.header_section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 55px;
+    padding: 100px 0;
+    flex-wrap: wrap;
+}
+
+.header_block{
+/*    margin: 0 55px;*/
+/*    padding: 100px 0;*/
+/*    background: url("../img/head_bg.png") no-repeat;*/
+/*    background-size: contain;*/
+/*    background-position: right 150px;*/
+}
+
+.header_img{
+    float: right;
+}
+
+.prefer_block{
+    background-color: #FF9C7D;
+    min-height: 100px;
+}
+
+.prefer_h h2{
+    padding-top: 98px;
+    text-align: center;
+}
+
+.prefer_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 95px;
+    flex-wrap: wrap;
+}
