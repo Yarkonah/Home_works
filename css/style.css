@@ -74,3 +74,15 @@
     padding: 95px;
     flex-wrap: wrap;
 }
+
+.body_all{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 75px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.body_all flex_flow{
+    flex-flow: column wrap;
+}
