@@ -7,7 +7,14 @@
     /*border: none;*/
 }
 
-.main_block{
+h2{
+    text-align: center;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
 }
 
 .main_logo img{
@@ -26,15 +33,49 @@
     flex-wrap: wrap; /*перенос на след строку*/
 }
 
+.main_menu{
+    margin-right: 30%;
+}
+
 .main_menu li{
     display: inline-block;
     margin: 0 21px;
 }
 
-.btn_main button{
-    border: black;
+.main_menu a{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.btn_white{
     border: 2px solid black;
-    padding: 10px;
+    padding: 0 36px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    background: #FFFFFF;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn_orange{
+    border: 2px solid #FF6336;
+    padding: 0 36px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    background: #FF6336;
+    color: #FFFFFF;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 .header_section{
@@ -45,12 +86,34 @@
     flex-wrap: wrap;
 }
 
-.header_block{
-/*    margin: 0 55px;*/
-/*    padding: 100px 0;*/
-/*    background: url("../img/head_bg.png") no-repeat;*/
-/*    background-size: contain;*/
-/*    background-position: right 150px;*/
+.header_h{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+    color: #000000;
+    padding-bottom: 50px;
+}
+
+.header_description{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+    padding-bottom: 50px;
+}
+
+.header_end{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    margin-top: 25px;
 }
 
 .header_img{
@@ -62,9 +125,8 @@
     min-height: 100px;
 }
 
-.prefer_h h2{
+.prefer_h{
     padding-top: 98px;
-    text-align: center;
 }
 
 .prefer_logo{
@@ -81,6 +143,26 @@
     margin: 100px 75px;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.body_description p{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding: 30px 0;
+}
+
+.body_start{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    cursor: pointer;
 }
 
 .flex_flow{
@@ -122,14 +204,57 @@
     background: #FFF8E4;
 }
 
+.localize_h{
+    padding-top: 120px;
+}
+
 .localize_blocks{
     margin: 0px 75px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-right: 30%;
 }
 
 .localize_img{
     padding: 57px;
+}
+
+.boost_blocks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.revolut{
+    background-color: #C9E8F2;
+}
+
+.revolut_blocks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 55px;
+}
+
+.cake{
+    background-color: #DABC98;
+    min-height: 100px;
+}
+
+.cake_blocks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 55px;
+}
+
+.tryit{
+    background-color: #FF9C7D;
+    min-height: 100px;
 }
 
