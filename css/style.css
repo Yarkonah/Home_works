@@ -7,6 +7,16 @@
     /*border: none;*/
 }
 
+h1{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    color: #000000;
+}
+
 h2{
     text-align: center;
     font-family: 'Graphik LC TT';
@@ -14,6 +24,15 @@ h2{
     font-weight: 600;
     font-size: 50px;
     line-height: 60px;
+    color: #000000;
+}
+
+h5{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
     color: #000000;
 }
 
@@ -80,10 +99,10 @@ h2{
 
 .header_section{
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     margin: 0 55px;
-    padding: 100px 0;
     flex-wrap: wrap;
+    padding: 90px 150px;
 }
 
 .header_h{
@@ -116,17 +135,16 @@ h2{
     margin-top: 25px;
 }
 
-.header_img{
-    float: right;
+.header_img img{
+    /*float: right;*/
+    /*width: 50%;*/
+    width: 600px;
+    /*height: 530px;*/
 }
 
 .prefer_block{
     background-color: #FF9C7D;
-    min-height: 100px;
-}
-
-.prefer_h{
-    padding-top: 98px;
+    padding: 90px 150px;
 }
 
 .prefer_logo{
@@ -143,6 +161,7 @@ h2{
     margin: 100px 75px;
     align-items: center;
     flex-wrap: wrap;
+    padding: 0 50px;
 }
 
 .body_description p{
@@ -212,20 +231,65 @@ h2{
     margin: 0px 75px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
-    padding-right: 30%;
+    /*padding-right: 30%;*/
+    padding: 0 50px;
+    /*padding-bottom: 50px;*/
 }
 
 .localize_img{
-    padding: 57px;
+    padding: 55px;
+}
+
+.localize_img img{
+    padding: 0 50px;
+}
+
+.localize_img h5{
+    text-align: center;
+}
+
+.localize_img,.boost_block p{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+.boost_h{
+    padding-top: 150px;
 }
 
 .boost_blocks{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
     flex-wrap: wrap;
-    padding: 50px;
+    padding: 100px 150px;
+    /*padding-bottom: 150px;*/
+}
+
+.boost_img{
+    height: 250px;
+}
+
+.boost_block p{
+    text-align: left;
+    padding: 25px 0;
+}
+
+.boost_block a{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #000000;
 }
 
 .revolut{
@@ -237,12 +301,39 @@ h2{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 55px;
+    padding: 100px 150px;
+}
+
+.revolut_description p{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000
+}
+
+.revolut_author p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
 }
 
 .cake{
     background-color: #DABC98;
-    min-height: 100px;
+    padding: 70px 150px;
+}
+
+.cake_h h4{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    color: #000000;
 }
 
 .cake_blocks{
@@ -253,8 +344,127 @@ h2{
     padding: 55px;
 }
 
+.bird_blocks{
+    padding: 170px 150px;
+    text-align: center;
+}
+
+.bird_description p{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    padding-bottom: 25px;
+}
+
+.bird_btn button{
+    margin-top: 30px;
+}
+
 .tryit{
     background-color: #FF9C7D;
-    min-height: 100px;
+    text-align: center;
+    padding: 160px 0;
+}
+
+.tryit_description p{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 30px;
+}
+
+.btn_black{
+    padding: 0 36px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    background: #000;
+    color: #FFFFFF;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 55px;
+}
+
+.footer_blocks{
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    flex-wrap: wrap;
+    padding: 90px 150px;
+}
+
+.footer_block_img h4{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+    padding-bottom: 15px;
+}
+
+.footer_block_img img{
+    padding: 15px 0;
+}
+
+.footer_block_img p{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.footer_block_img h6{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 15px;
+}
+
+.footer_block h4{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.footer_block a{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #000000;
+    display: block;
+    padding-top: 15px;
+}
+
+.footer_img{
+    padding: 90px 150px;
+    float: left;}
+
+.footer_img div{
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.footer_allres{
+    padding: 90px 150px;
+    float: right;
 }
 
